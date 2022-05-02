@@ -1,0 +1,65 @@
+/* Author: Matheus Henrique Teixeira de Assis */
+
+*{
+    margin: 0px;                                        /* Retira margem geral da página */
+}
+
+body{
+    background-color: #1F262C;                        /* Fundo da página */
+}
+
+.caixa{                                                 /* Caixa de Login */
+    position: absolute;
+    transform: translate(-50%, -50%);                   /* Ajuste de centro da página */
+    left: 50%;
+    top: 50%;
+    text-align: center;
+    background-color: #2F3841;
+    width: 15em;
+    height: 15em;
+    border-radius: 10px;
+}
+.caixa h1{                                              /* Nome LOGIN */
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: normal;
+}
+.campos input{                                          /* Campos de Usuário e Senha */
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    padding: 7px;
+    margin: 5px 0;
+    outline: none;
+    background: transparent;
+    border: 1.5px #215d94 solid;
+    border-radius: 15px;
+    width: 10em;
+}
+.botao input{                                           /* Botão Entrar */
+    text-align: center;
+    color: white;
+    margin: 5px 0;
+    padding: 7px;
+    width: 10.9em;
+    background: transparent;
+    border: 1.5px #215d94 solid;
+    border-radius: 15px;
+    outline: none;
+    cursor: pointer;
+}
+.campos input:hover{                                    /* Reação do cursor nos campos */
+    border-color: #7635ac;
+}
+.botao input:hover{                                     /* Reação do cursor no botão */
+    border-color: #7635ac;
+}
+.botao input:active{                                    /* Reação de clique no botão */
+    color: #4e4e4e;
+}
